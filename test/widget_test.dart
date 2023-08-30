@@ -8,6 +8,6 @@ void main() {
     final Quote responce = await QuoteApi(Dio()).getRandom();
     print(responce.sentence);
     print(responce.character.name);
-    expect(responce, TypeMatcher<Quote>());
+    expect(responce, const TypeMatcher<Quote>());
   });
 }
