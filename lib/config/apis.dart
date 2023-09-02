@@ -3,7 +3,7 @@ sealed class Apis {
   static const randomQuote = "/random";
   static const allHouses = "/houses";
   static const allCharacters = "/characters";
-  static String houseDetail(String house) => "/house/$house";
+  static const String houseDetail = "/house";
   static String quoteFromCharacter(String character) => "/author/$character";
-  static String characterBySlug(String slug) => "character/$slug";
+  static const String character = "character";
 }

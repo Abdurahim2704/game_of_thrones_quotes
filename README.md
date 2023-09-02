@@ -1,16 +1,11 @@
-# game_of_thrones_quotes
+# Famous Quotes from Game Of Thrones
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Features and Key points
 
-A few resources to get you started if this is your first Flutter project:
+- Used simple neomorphic design
+- Used retrofit and dio packages
+- Used clean architecture structure 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In next versions I am going to add save quotes locally if you have better UI ideas, let me know it.

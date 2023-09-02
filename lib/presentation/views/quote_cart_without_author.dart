@@ -3,13 +3,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:game_of_thrones_quotes/core/themes/app_themes.dart';
 
-class QuoteCart extends StatelessWidget {
+class QuoteCartWithOutSubtitle extends StatelessWidget {
   final String title;
-  final String subtitle;
-  const QuoteCart({
+  const QuoteCartWithOutSubtitle({
     super.key,
     required this.title,
-    required this.subtitle,
   });
 
   @override
@@ -42,11 +40,6 @@ class QuoteCart extends StatelessWidget {
       child: ListTile(
         title: Text(
           title,
-          style: CustomTextStyles.handwritingStyle,
-        ),
-        subtitle: Text(
-          subtitle,
-          textAlign: TextAlign.end,
           style: CustomTextStyles.handwritingStyle,
         ),
       ),

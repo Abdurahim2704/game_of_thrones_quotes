@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:game_of_thrones_quotes/presentation/screens/home_page.dart';
+import 'package:game_of_thrones_quotes/presentation/screens/home_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

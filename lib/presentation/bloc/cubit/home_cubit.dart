@@ -13,4 +13,10 @@ class HomeCubit extends Cubit<HomeState> {
         .getRandomQuote()
         .then((value) => homeCubit.emit(HomeSuccessFetch(quotes: [value])));
   }
+
+  void getRandomQuotes() {
+    quotesService
+        .getRandomList()
+        .then((value) => homeCubit.emit(HomeSuccessFetch(quotes: value)));
+  }
 }
