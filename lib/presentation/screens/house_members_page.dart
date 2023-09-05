@@ -14,7 +14,7 @@ class MembersPage extends StatelessWidget {
       appBar: AppBar(title: const Text("House members")),
       body: Center(
         child: ListView.separated(
-          shrinkWrap: true,
+          physics: const PageScrollPhysics(),
           separatorBuilder: (context, index) {
             return const SizedBox(
               height: 30,
